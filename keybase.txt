@@ -1,0 +1,83 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ==================================================================\
+https://keybase.io/cristianrus4\
+--------------------------------------------------------------------\
+\
+I hereby claim:\
+\
+  * I am an admin of http://cristianrus4.me\
+  * I am cristianrus4 (https://keybase.io/cristianrus4) on keybase.\
+  * I have a public key with fingerprint 55DB A2C3 31C1 11A3 9B36  2433 8585 75CB 2B97 2233\
+\
+To do so, I am signing this object:\
+\
+\{\
+  "body": \{\
+    "key": \{\
+      "eldest_kid": "01203ff3199d17a9e82e10428343365f5ead14c15d94949ba5f997ce23c23c6d78620a",\
+      "fingerprint": "55dba2c331c111a39b362433858575cb2b972233",\
+      "host": "keybase.io",\
+      "key_id": "858575cb2b972233",\
+      "kid": "0101366c861afb15bef163eae7cdf965d7156e12defcf4a559fa4f0aab791004b7010a",\
+      "uid": "431d4613bbbdfd182a1049306c2f1c19",\
+      "username": "cristianrus4"\
+    \},\
+    "service": \{\
+      "hostname": "cristianrus4.me",\
+      "protocol": "http:"\
+    \},\
+    "type": "web_service_binding",\
+    "version": 1\
+  \},\
+  "ctime": 1526291387,\
+  "expire_in": 157680000,\
+  "prev": "7b3def13d2a3e5e6b38855f90b06211969371a1d80fc963bdfa1d5edc06b0cac",\
+  "seqno": 16,\
+  "tag": "signature"\
+\}\
+\
+which yields the signature:\
+\
+-----BEGIN PGP MESSAGE-----\
+Version: Keybase OpenPGP v2.0.77\
+Comment: https://keybase.io/crypto\
+\
+yMNxAnicbZJ7UFRVHMcXAwUMtWDSJii8ChqP9Z579r62GTRhqYGgx9jgc3bu41y4\
+QLvLvnisVGqo4SMJyGaYHHxkFApKY9KoAQsYROSgKSDmjkFLEWPYVEAJdS6T/3nP\
+nblzzvn+Pvf7/Z3TEfaILjSgrMzVE3+YgAE9bUdcus3TWy54CNEqFxNGD5GH5j4o\
+X0YOpzlPlQkjQQKKhIoCAc/LgBV4xFEIkAaKgwYIGVqhkSADgwRomTfgIQq0wvOs\
+hCgo4ZeRWY6hSIFIIBTVko3sNrtqcWIsTcuiQEkQAgkAIEBehAyFiRzN0SwtiZTI\
+sxQFIS7MsTq0CmxOFBxIr1rxGp6Y5+w9RP/ANwkgw0gcAwRFBLSIFMBAJCBWkhWe\
+oWUW0AwClIwUSTEINM0rgkEhBUFkeUCSBpHFBM23aw5ngEA2MACKoigrMuAoATeB\
+hyQjUQqOwGtCB7JbhDcQVkt21eFUBYvd5TAQpQkE3nGrEtKaq6V5iEqPVxIIm93q\
+tErWfLyZ43TajFqts9imiQuRaP4fYxZVi4y7iQvcyO5QrRbCCLBScqoaF9AUQ/EA\
+cmwCgYpsqh2ZVU1BswxH4kf7DXJjJCtCnB5AmRIgohEjQo6j8fGRIslQAPAMD1kg\
+AJkjFYlnIA6OJzSSJZIRSUmQCC1YgcWK2Qz2KWRjpkPNtghOlx0Rpd62rYG6gFDd\
+/KB52jXThYYseXD5arsWzyYWvuKIKy9a1hqtHw1OH+26OR0RG5FTxDy60VL20avG\
+qKRP3to0sZOtWXnqxGDQrUPS/ut7D3VtsA71ZDWLB8Ldp9ccGGnPNfWfn6pCphW+\
+ablkIHm9L/aXsRJD4r3MgmN1nUOLhtd+1pHpa7oa2PbEi7oGOcNfGJK61Ci/EPmc\
+v6K54Xb4r9/RFmrX0LFv0+smglZvCB7OSL3utcV43lu/snLt0laX/1LRjOf73PKF\
+YFtHzHLGuu/nmC8bn5wsHKxN8XrgbX+oqbnAmVLW0fnuS9VR5ryWuvRPbbGnmlPF\
+ES+Ka8kNub/vYMXFw55rfd2Vi7mGqvTB2uVZCx7798fjR9ct2jZUPJHcG9n4smn/\
+6ZzK6fDqgQXBZ7sDv/pjhzfw7y01FU3LRuq/uPP57snzBY1KZiSxzncm7Kd3VpWc\
+KL3Xf27KExPQ6zK19i+cbDFtHvuwb/WVXbnB8qbqIzuficyrHSeix/2Xbzyd+UHg\
+iq7fy1O9Sc4h5/0m31Pvp+2JjxivT0i5lHEmTdiz/c+WgrN/3XIkXn5N3zcz7827\
+W/XxF4Ijq+/OXrujXMmarZkYCOmb0X99c6Oxvn3qXNxBcVb6Ifb1qN8KxeRnR5NC\
+4rvDVw27m9bsOBnz8T/br7ZHd9YZL7J+pvyb41W7u5dkFD/f4nOz6ZO52SePhvnq\
+x/Kn5vfesCtvtzfBx9P+A/i3yeQ=\
+=mCTF\
+-----END PGP MESSAGE-----\
+\
+And finally, I am proving ownership of this host by posting or\
+appending to this document.\
+\
+View my publicly-auditable identity here: https://keybase.io/cristianrus4\
+\
+==================================================================\
+}
