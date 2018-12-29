@@ -30,10 +30,8 @@
 	}
 	
 	
-	#profile {
+	footer {
 	    background: rgba(46, 46, 46, 1);
-
-	    margin-bottom:4em;
 	    border-radius: 0.7em;
         border-left: 1em solid rgba(53, 123, 179, 0.85);
     
@@ -41,18 +39,10 @@
 	
 	#bio {
 	    color: rgba(255, 255, 255, 1);
-	    display:flex;
-	    margin-left:7em;
+		display:flex;
 	    align-items:center;
-	   
-    
-	} 
-	
-	#biophoto {
-	    
-	    float:left;
-	} 
 
+	} 
 
 	a:link {
 	    color: rgba(46, 46, 46, 1);
