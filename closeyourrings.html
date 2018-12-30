@@ -10,39 +10,209 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<title>#CloseYourRings</title>
+
+		<script>
+		dateFuture = new Date(2017,12,1,0,0,0);
+
+		function GetCount(){
+
+		dateNow = new Date();
+				       
+		amount = dateNow.getTime() - dateFuture.getTime();                
+				           
+		delete dateNow;
+
+		if(amount < 0){
+			document.getElementById('countbox').innerHTML="Fin!";
+		}
+				            
+		else{
+
+		days=0;hours=0;mins=0;secs=0;out="";
+
+		amount = Math.floor(amount/1000);
+
+		days=Math.floor(amount/86400);
+		amount=amount%86400;
+
+
+		if(days != 0){out += "Mi racha actual es de " +  days +" día"+((days!=1)?"s 💪":"");}
+				                   
+		document.getElementById('countbox').innerHTML=out;
+
+		setTimeout("GetCount()", 1000);
+		}
+		}
+
+		window.onload=function(){GetCount();}//call when everything has loaded
+
+		//-->
+		</script>
+
 	</head>
 	
 	<body>
-	
+		
+		<div id="symbol">
+		<center><svg width="20%" height="20%" viewBox="0 0 207 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		   <defs>
+		        <path d="M15.9406294,14.7381556 L38.2519531,0.060546875 L89.1777344,16.0996094 L86.1679688,78.0341797 L74.3554053,78.0341797 C74.1452464,81.2594115 73.6071833,84.1918537 72.7519532,86.3891601 C71.3110351,94.175293 52.1020561,93.4235491 49.8769582,85.3561662 C49.0644192,82.4102 48.562647,79.2576298 48.4700887,76.1353605 L15.0526545,43.5596043 C14.7051479,43.5863592 14.3541093,43.5999756 14,43.5999756 C6.2680135,43.5999756 0,37.1081045 0,29.0999756 C0,21.0918467 6.2680135,14.5999756 14,14.5999756 C14.6584835,14.5999756 15.3063491,14.64706 15.9406294,14.7381556 Z" id="path-1"></path>
+		        <path d="M27.92691,42.6186893 C22.7026907,40.5141877 19,35.2549295 19,29.0999756 C19,21.0918467 25.2680135,14.5999756 33,14.5999756 C33.6584835,14.5999756 34.3063491,14.64706 34.9406294,14.7381556 L57.2519531,0.060546875 L108.177734,16.0996094 L134.335938,54.2441406 L147.152344,102.155273 L141.273438,135.195312 L141.273438,151.394531 L86.5449219,176.353516 L86.4730622,176.269249 C83.5930266,177.661035 80.9804299,178.500732 79.1872559,178.500732 C72.3381699,178.500732 65.2734375,173.697805 65.2734375,165.223633 C65.2734375,162.223233 66.5040049,159.052179 68.4279137,156.131999 L-0.20703125,146.597656 L27.92691,42.6186893 Z" id="path-3"></path>
+		        <path d="M91.8638868,26.9872422 C84.1508967,26.6772593 78,20.7574005 78,13.5 C78,6.04415588 84.4918711,0 92.5,0 C94.05808,0 95.5587629,0.22879845 96.9654029,0.65227696 L131.853859,0.65227696 L196.441894,44.7486095 L206.651629,113.651479 L201.969042,204.769193 L117.224072,234.500224 L42.3290662,234.500224 L4.99804688,199.318377 C4.99804688,199.318377 5.12236841,199.215608 5.35927123,199.021138 C2.07743774,195.622004 0,190.527239 0,186.401367 C0,179.552281 6.34786682,173.958496 13.8037109,173.958496 C18.8532247,173.958496 23.4787464,177.786241 26.4030861,182.59576 C28.0300398,181.388578 29.688137,180.175173 31.3535156,178.978037 C44.7674452,169.335609 58.7929688,160.648598 58.7929688,160.648598 L91.8710938,36.8843449 L91.8638868,26.9872422 Z" id="path-5"></path>
+		        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+		            <stop stop-color="#FF1412" offset="0%"></stop>
+		            <stop stop-color="#FD08A8" offset="100%"></stop>
+		        </linearGradient>
+		    </defs>
+		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g id="Artboard" transform="translate(-451.000000, -437.000000)">
+		            <g id="Group" transform="translate(451.000000, 437.000000)">
+		                <g id="stand-circle" transform="translate(78.793651, 40.000000)">
+		                    <mask id="mask-2" fill="white">
+		                        <use xlink:href="#path-1"></use>
+		                    </mask>
+		                    <g id="Oval-53" opacity="0.6"></g>
+		                    <path d="M12.1507937,138.847619 C-21.8147185,138.847619 -49.3492063,111.313131 -49.3492063,77.347619 C-49.3492063,43.3821069 -21.8147185,15.847619 12.1507937,15.847619 C46.1163058,15.847619 73.6507937,43.3821069 73.6507937,77.347619 C73.6507937,111.313131 46.1163058,138.847619 12.1507937,138.847619 Z M13.5604257,112.399423 C33.1665343,112.399423 49.0604257,96.5055314 49.0604257,76.8994228 C49.0604257,57.2933142 33.1665343,41.3994228 13.5604257,41.3994228 C-6.04568293,41.3994228 -21.9395743,57.2933142 -21.9395743,76.8994228 C-21.9395743,96.5055314 -6.04568293,112.399423 13.5604257,112.399423 Z" id="Oval-51" fill="#37E2E2" mask="url(#mask-2)"></path>
+		                </g>
+		                <g id="exercise-circle" transform="translate(58.793651, 12.000000)">
+		                    <mask id="mask-4" fill="white">
+		                        <use xlink:href="#path-3"></use>
+		                    </mask>
+		                    <g id="Oval-52" opacity="0.6"></g>
+		                    <path d="M30.5277778,195.701587 C-19.7301345,195.701587 -60.4722222,155.407215 -60.4722222,105.701587 C-60.4722222,55.9959598 -19.7301345,15.7015873 30.5277778,15.7015873 C80.78569,15.7015873 121.527778,55.9959598 121.527778,105.701587 C121.527778,155.407215 80.78569,195.701587 30.5277778,195.701587 Z M31.5277778,169.155641 C66.5724841,169.155641 94.9818318,140.746294 94.9818318,105.701587 C94.9818318,70.6568809 66.5724841,42.2475332 31.5277778,42.2475332 C-3.51692859,42.2475332 -31.9262763,70.6568809 -31.9262763,105.701587 C-31.9262763,140.746294 -3.51692859,169.155641 31.5277778,169.155641 Z" id="Path-17" fill-opacity="0.8" fill="#A9FD4B" mask="url(#mask-4)"></path>
+		                </g>
+		                <g id="move-circle" transform="translate(0.793651, 0.000000)">
+		                    <mask id="mask-6" fill="white">
+		                        <use xlink:href="#path-5"></use>
+		                    </mask>
+		                    <g id="Oval-51" opacity="0.6"></g>
+		                    <path d="M88.9563492,234.457143 C24.4771047,234.457143 -27.7936508,182.074459 -27.7936508,117.457143 C-27.7936508,52.8398271 24.4771047,0.457142857 88.9563492,0.457142857 C153.435594,0.457142857 205.706349,52.8398271 205.706349,117.457143 C205.706349,182.074459 153.435594,234.457143 88.9563492,234.457143 Z M89.6080729,209.192614 C140.142013,209.192614 181.107865,168.223922 181.107865,117.686479 C181.107865,67.1490352 140.142013,26.1803426 89.6080729,26.1803426 C39.0741331,26.1803426 -1.89171915,67.1490352 -1.89171915,117.686479 C-1.89171915,168.223922 39.0741331,209.192614 89.6080729,209.192614 Z" id="Path-18" fill="url(#linearGradient-7)" mask="url(#mask-6)"></path>
+		                </g>
+		            </g>
+		        </g>
+		    </g>
+		</svg></center>
+		</div>
+
 		<article>
 
 
-			<h1>Lorem ipsum dolor sit amet</h1>
+		<h1>#CloseYourRings</h1>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <a href="lorem">irure dolor in reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Desde el 1 de enero de 2018 estoy cerrando los anillos del Apple Watch a diario. Todos, todos los días. Puedes descubrir más sobre ello en la <a href="https://www.apple.com/watch/close-your-rings/">página oficial de Apple</a>. También trato de conseguir todos los logros especiales. <span id="countbox"></span><p>
 
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			
+			<figure>
 
-			<ul>
-			<li>Nam libero tempore</li>
-			<li>Quis nostrum exercitationem ullam corporis</li>
-			<li>Inventore veritatis et quasi architecto</li>
-			<li>Et harum quidem</li>
-			</ul>
+			<img width="100%" height="auto" src="images/closeyourrings/nov18.jpg">
+			<figcaption>Noviembre de 2018</figcaption>
+			
+			</figure>
 
-			<p>Neque porro <a href="lorem">quisquam est</a>, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+			<figure>
 
-			<h2>De Finibus Bonorum et Maloru</h2>
+			<img width="100%" height="auto" src="images/closeyourrings/oct18.png">
+			<figcaption>Octubre de 2018</figcaption>
+			
+			</figure>
 
-			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+			<figure>
 
-			<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic <a href="lorem">tenetur a sapiente delectus, ut aut reiciendis</a> voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+			<img width="100%" height="auto" src="images/closeyourrings/sep18.jpg">
+			<figcaption>Septiembre de 2018</figcaption>
+			
+			</figure>
 
-			<img width="100%" height="auto" src="">
+			<figure>
 
-			<p></p>
+			<img width="100%" height="auto" src="images/closeyourrings/parques18.jpg">
+			<figcaption>Parques nacionales, en septiembre de 2018</figcaption>
+			
+			</figure>
 
-			<p></p>
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/aug18.jpg">
+			<figcaption>Agosto de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/jul18.jpg">
+			<figcaption>Julio de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/jun18.jpg">
+			<figcaption>Junio de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/may18.jpg">
+			<figcaption>Mayo de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/apr18.jpg">
+			<figcaption>Abril de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/tierra18.jpg">
+			<figcaption>Día de la Tierra, en abril de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/mar18.jpg">
+			<figcaption>Marzo de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/mujer18.jpg">
+			<figcaption>Día Internacional de la Mujer, en marzo de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/feb18.jpg">
+			<figcaption>Febrero de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/corazon18.jpg">
+			<figcaption>Mes del Corazón, en febrero de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/jan18.jpg">
+			<figcaption>Enero de 2018</figcaption>
+			
+			</figure>
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/closeyourrings/estrena18.jpg">
+			<figcaption>Estrena el año con buen pie, en enero de 2018</figcaption>
+			
+			</figure>
 
 
 		</article>
