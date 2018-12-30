@@ -38,6 +38,12 @@
     
 	}  
 	
+	#symbol {
+		margin-top:3em;
+		margin-bottom: -2em;
+	  
+	}
+
 	#bio {
 	    color: rgba(255, 255, 255, 1);
 		display:flex;
