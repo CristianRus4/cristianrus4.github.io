@@ -30,6 +30,13 @@
 		margin-top: 0.5em;
 	}
 
+	time {
+		font-weight: 500;
+		font-style: italic;
+		font-size: 0.9em;
+		background-color: rgba(255, 255, 0, 0.2);
+	}
+
 	mark {
 		background-color: rgba(255, 255, 0, 0.3);
 	}
