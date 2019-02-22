@@ -257,7 +257,9 @@
 
 			footer {
 
-			    background: rgba(247, 247, 247, 1);
+			    background: rgba(247, 247, 247, 0.9);
+				border-left: 1em solid rgba(53, 123, 179, 1);
+
 
 			}  
 
