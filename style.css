@@ -42,13 +42,11 @@
 		
 	}
 	
-	small {
+	.sign {
 		font-weight: 400;
 		font-style: oblique;
 		font-size: 0.8em;
-		display: inline;
-		color: green;
-		
+		text-align: right;		
 	}
 
 	
