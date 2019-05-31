@@ -26,6 +26,15 @@
 		margin-bottom: 0;
 	}
 	
+	small {
+		font-weight: 400;
+		font-style: oblique;
+		font-size: 0.8em;
+		text-align: right;
+		color: blue;
+		
+	}
+	
 	p {
 		margin-top: 0.5em;
 	}
@@ -41,14 +50,6 @@
 		
 	}
 
-	small {
-		font-weight: 400;
-		font-style: oblique;
-		font-size: 0.8em;
-		text-align: right;
-		color: blue;
-		
-	}
 	
 	mark {
 		background-color: rgba(255, 255, 0, 0.3);
