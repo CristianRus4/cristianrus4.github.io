@@ -1,3 +1,8 @@
+	#vietgal {
+		background-color: red;
+		max-width: 850px;
+	}
+
 	body {
 		background-color: rgba(247, 247, 247, 1);
 		font-family: 'Gotham Narrow', sans-serif;
@@ -63,6 +68,8 @@
 	    width: 100%;
 	  }
 	}
+
+	
 		
 	mark {
 		background-color: rgba(255, 255, 0, 0.3);
