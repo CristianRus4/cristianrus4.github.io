@@ -69,7 +69,7 @@
 	margin-top: 15px;
 	margin-left: 0px;
 	margin-bottom: -10px;
-	color: blue;
+	color: 0000FF;
 	-webkit-animation: 1s blink step-end infinite;
 	-moz-animation: 1s blink step-end infinite;
 	-ms-animation: 1s blink step-end infinite;
@@ -83,7 +83,7 @@
 	    color: transparent;
 	  }
 	  100% {
-	    color: blue;
+	    color: 0000FF;
 	  }
 	}
 	
@@ -92,7 +92,7 @@
 	    color: transparent;
 	  }
 	  100% {
-	    color: blue;
+	    color: 0000FF;
 	  }
 	}
 	
@@ -101,7 +101,7 @@
 	    color: transparent;
 	  }
 	  100% {
-	    color: blue;
+	    color: 0000FF;
 	  }
 	}
 	
@@ -110,7 +110,7 @@
 	    color: transparent;
 	  }
 	  100% {
-	    color: blue;
+	    color: 0000FF;
 	  }
 	}
 	
@@ -119,7 +119,7 @@
 	    color: transparent;
 	  }
 	  100% {
-	    color: blue;
+	    color: 0000FF;
 	  }
 	}
 
