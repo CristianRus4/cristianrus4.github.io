@@ -1,5 +1,4 @@
 	body {
-		background-image: url("images/glitch.gif");
 		background-color: rgba(247, 247, 247, 1);
 		font-family: 'Gotham Condensed', sans-serif;
 		font-weight: 400;
@@ -28,15 +27,6 @@
 	p {
 		margin-top: 3%;
 	}
-	
-	#avhome {
-		position: fixed;
-  		bottom: 0;
-  		right: 0;
-  		width: 300px;
-  		border: 3px solid #73AD21;
-	}
-	
 	
 	a:link {
 	    color: rgba(46, 46, 46, 1);
