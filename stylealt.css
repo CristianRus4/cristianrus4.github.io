@@ -32,6 +32,11 @@
 		margin-top: 3%;
 	}
 	
+	mark {
+ 		 background-color: white;
+  	     color: black;
+	}
+	
 	a:link {
 	    color: rgba(46, 46, 46, 1);
 	    text-decoration: none;
