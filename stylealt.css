@@ -19,6 +19,7 @@
 		font-style: oblique;
 		font-size: 3.2em;
 		color: white;
+		text-shadow: -3px -6px 1px #404040;
 		margin-top: 15%;
 		margin-bottom: 8%;
 		background: rgba(0, 255, 255, 0.7);
