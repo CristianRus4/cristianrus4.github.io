@@ -15,7 +15,8 @@
 
 	h1 {
 		font-weight: 700;
-		font-family: 'Gotham Condensed', sans-serif;
+		font-family: "Gotham Condensed", sans-serif;
+		font-style: oblique;
 		font-size: 3.2em;
 		color: white;
 		margin-top: 15%;
