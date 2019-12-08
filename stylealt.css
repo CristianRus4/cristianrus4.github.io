@@ -20,6 +20,7 @@
 		font-size: 3.55em;
 		margin-top: 15%;
 		margin-bottom: 8%;
+		background: white;
 	}
 	
 	h2 {
@@ -80,8 +81,8 @@
 	  from, to {
 	    color: transparent;
 	  }
-	  50% {
-	    color: rgba(53, 123, 179, 0.68);
+	  100% {
+	    color: blue;
 	  }
 	}
 	
@@ -89,8 +90,8 @@
 	  from, to {
 	    color: transparent;
 	  }
-	  50% {
-	    color: rgba(53, 123, 179, 0.68);
+	  100% {
+	    color: blue;
 	  }
 	}
 	
@@ -98,8 +99,8 @@
 	  from, to {
 	    color: transparent;
 	  }
-	  50% {
-	    color: rgba(53, 123, 179, 0.85);
+	  100% {
+	    color: blue;
 	  }
 	}
 	
@@ -107,8 +108,8 @@
 	  from, to {
 	    color: transparent;
 	  }
-	  50% {
-	    color: #2e2e2e;
+	  100% {
+	    color: blue;
 	  }
 	}
 	
@@ -116,8 +117,8 @@
 	  from, to {
 	    color: transparent;
 	  }
-	  50% {
-	    color: #2e2e2e;
+	  100% {
+	    color: blue;
 	  }
 	}
 
