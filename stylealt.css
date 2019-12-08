@@ -37,10 +37,13 @@
 	p {
 		margin-top: 3%;
 		font-family: monospace;
-		box-shadow: inset 0 -1.4em 0 rgba(255, 255, 255, 1);
+		background: rgba(255, 255, 255, 1);
 	}
 	
-	
+mark {
+ 		 background-color: white;
+  	     color: #404040;
+	}
 	
 	a:link {
 	    color: white;
