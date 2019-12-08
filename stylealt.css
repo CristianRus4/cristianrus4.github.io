@@ -37,12 +37,10 @@
 	p {
 		margin-top: 3%;
 		font-family: monospace;
+		background: rgba(255, 255, 255, 1);
 	}
 	
-	mark {
- 		 background-color: white;
-  	     color: #404040;
-	}
+	
 	
 	a:link {
 	    color: white;
