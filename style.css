@@ -69,7 +69,16 @@
 	  }
 	}
 
+	.mosaic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+	}
 	
+	img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover;
+}
 		
 	mark {
 		background-color: rgba(255, 255, 0, 0.3);
