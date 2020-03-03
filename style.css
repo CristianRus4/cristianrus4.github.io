@@ -70,7 +70,11 @@
 }
 
 
-
+.fit {
+ 
+ object-fit: cover;
+  
+}
 
 
 
