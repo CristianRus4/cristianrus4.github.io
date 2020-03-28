@@ -120,10 +120,16 @@
 		}
 		
 	
-	#square {
-    		background: lightblue;
-	    width: 100px;
-	    height: 100px;
+	#rectangle {
+    		background: #333333;
+	    width: 50px;
+	    height: 300px;
+	}
+	
+	#line {
+    		background: #222222;
+	    width: 10px;
+	    height: 800px;
 	}
 	
 	#circle {
