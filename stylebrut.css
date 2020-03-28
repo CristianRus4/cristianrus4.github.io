@@ -118,3 +118,19 @@
 		src: url("fonts/GothamNarrow-Ultra.otf");
 		font-weight: 900;
 		}
+		
+	
+	#square {
+    		background: lightblue;
+	    width: 100px;
+	    height: 100px;
+	}
+	
+	#circle {
+    		background: lightblue;
+	    border-radius: 50%;
+	    width: 100px;
+	    height: 100px;
+	}
+
+
