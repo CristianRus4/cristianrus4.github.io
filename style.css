@@ -1,7 +1,3 @@
-	#vietgal {
-		background-color: red;
-		max-width: 850px;
-	}
 
 	body {
 		background-color: rgba(247, 247, 247, 1);
@@ -58,28 +54,6 @@
 	img {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
-
-
-
-
-
-
-.mosaic {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-
-
-.fit {
- 
- object-fit: cover;
-  
-}
-
-
-
-
-
 
 
 
