@@ -97,6 +97,10 @@
 		margin-top: 3em;
 	} 
 
+	hr { 
+  		margin-top: 3em;	
+	}
+
 	a:link {
 	    color: rgba(46, 46, 46, 1);
 	    text-decoration: none;
