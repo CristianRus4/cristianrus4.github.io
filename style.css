@@ -97,8 +97,10 @@
 		align-items:center;
 		
 	} 
+	
+	$link: #EC407A;
 
-	a {
+	   a {
       position: relative;
       overflow: hidden;
       text-decoration: none;
@@ -121,7 +123,7 @@
         height: 100%;
       }
     }
-  
+
 	::selection {
 		background-color: rgba(53, 123, 179, 0.68);
 		}
