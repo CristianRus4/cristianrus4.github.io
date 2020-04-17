@@ -1,103 +1,33 @@
-
 	body {
 		background-color: rgba(247, 247, 247, 1);
-		font-family: 'iA Writer Quattro', sans-serif;
+		font-family: 'Gotham Condensed', sans-serif;
 		font-weight: 400;
-		font-size: 1.05em;
+		font-size: 1.4em;
 		line-height: 1.4em;
 		text-align: left;
 		color: rgba(46, 46, 46, 1);
 		margin: 0 auto;
-		max-width: 650px;
+		max-width: 345px;
 	    padding: 0% 10% 0% 10%;
-	    margin-bottom: 3em;
 	}
 
 	h1 {
 		font-weight: 700;
-		font-size: 2.5em;
-		line-height: 1em;
+		font-size: 3.55em;
 		margin-top: 15%;
-		margin-bottom: 0.5em;
+		margin-bottom: 8%;
 	}
 	
 	h2 {
 		font-size: 1.5em;
 		font-weight: 700;
-		margin-top: 1em;
 		margin-bottom: 0;
 	}
 	
-	li {
-	    margin-top: 0.5em;
-	}
-
 	p {
-		margin-top: 0.5em;
-	}
-
-
-	time {
-		font-weight: 500;
-		font-style: oblique;
-		font-size: 0.9em;
-		
+		margin-top: 3%;
 	}
 	
-	.sign {
-		font-weight: 400;
-		font-style: oblique;
-		font-size: 0.8em;
-		text-align: right;		
-	}
-
-
-	img {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	}
-
-
-
-
-
-	mark {
-		background-color: rgba(255, 255, 0, 0.3);
-	}
-	
-	figure {
-		margin-bottom: 2em;
-		margin-left: 0;
-		margin-right: 0;
-				
-	}
-
-	figcaption {
-		text-align: right;
-		font-size: 0.7em;
-		margin-right: 1em;
-		font-weight: 200;
-		color: rgba(46, 46, 46, 0.7);
-		font-style: oblique;		
-	}
-	
-	footer {
-	    background: rgba(46, 46, 46, 1);
-	    border-radius: 0.7em;
-        border-left: 1em solid rgba(53, 123, 179, 0.85);  
-	}  
-	
-	#symbol {
-		margin-top:3em;
-		margin-bottom: -2em;  
-	}
-
-	#bio {
-	    color: rgba(255, 255, 255, 1);
-		display:flex;
-		align-items:center;
-		
-	} 
-
 	a:link {
 	    color: rgba(46, 46, 46, 1);
 	    text-decoration: none;
@@ -184,23 +114,60 @@
 
 
 	@font-face {
-		font-family: "iA Writer Quattro";
-		src: url("/fonts/iAWriterQuattroS-Regular.woff");
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Light.otf");
+		font-weight: 200;
+		}
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Book.otf");
 		font-weight: 400;
 		}
 	@font-face {
-		font-family: "iA Writer Quattro";
-		src: url("/fonts/iAWriterQuattroS-Bold.woff");
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Medium.otf");
+		font-weight: 500;
+		}
+		@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Bold.otf");
 		font-weight: 700;
 		}
-	
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Ultra.otf");
+		font-weight: 900;
+		}
 
-	
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Light.otf");
+		font-weight: 200;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Book.otf");
+		font-weight: 400;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Medium.otf");
+		font-weight: 500;
+		}
+		@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Bold.otf");
+		font-weight: 700;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Ultra.otf");
+		font-weight: 900;
+		}
 
 
 
-
-	@media (prefers-color-scheme: dark) {
+		@media (prefers-color-scheme: dark) {
  			body {
    				color: rgba(247, 247, 247, 1);
   				background-color: rgba(46, 46, 46, 1);
@@ -234,30 +201,5 @@
 	   			box-shadow: none;
 
 				}
-
-			footer {
-
-			    background: rgba(247, 247, 247, 0.9);
-				border-left: 1em solid rgba(53, 123, 179, 1);
-
-
-			}  
-
-			#bio {
-	    		color: rgba(46, 46, 46, 1);
-		
-			} 
-
-			figure {
-
-								
-			}
-		
-
-			figcaption {
-
-				color: rgba(247, 247, 247, 0.7);
-
-			}
 
 		}
