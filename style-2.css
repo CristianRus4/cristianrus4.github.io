@@ -33,12 +33,33 @@
 	}
 
 	p {
-		margin-top: 0.5em;		
+		margin-top: 0.5em;
+	}
+
+
+	time {
+		font-weight: 500;
+		font-style: oblique;
+		font-size: 0.9em;
+		
 	}
 	
+	.sign {
+		font-weight: 400;
+		font-style: oblique;
+		font-size: 0.8em;
+		text-align: right;		
+	}
+
 
 	img {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+
+	.item {
+		border-radius: 0.7em;
+        border-left: 1em solid rgba(53, 123, 179, 0.85); 
 	}
 
 
