@@ -307,5 +307,11 @@
 				color: rgba(247, 247, 247, 0.7);
 
 			}
+			
+			.dat {
+				color: rgba(46, 46, 46, 1);
+				background-color: rgba(247, 247, 247, 0.8);
+			}
+			
 
 		}
