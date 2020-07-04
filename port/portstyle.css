@@ -1,0 +1,252 @@
+
+	body {
+		background-color: rgba(247, 247, 247, 1);
+		font-family: 'Gotham Narrow', sans-serif;
+		font-weight: 400;
+		font-size: 1.05em;
+		line-height: 1.4em;
+		text-align: left;
+		color: rgba(46, 46, 46, 1);
+		margin: 0 auto;
+		max-width: 650px;
+		min-width: 320px;
+	    padding: 0% 10% 0% 10%;
+	    margin-bottom: 3em;
+	}
+
+	h1 {
+		font-weight: 700;
+		font-size: 2.5em;
+		line-height: 1em;
+		margin-top: 15%;
+		margin-bottom: 0.5em;
+	}
+	
+	h2 {
+		font-size: 2em;
+		font-weight: 700;
+		margin-top: 0.5em;
+		margin-bottom: 0;
+	}
+
+	h3 {
+		font-size: 1em;
+		font-weight: 700;
+		margin-top: 1em;
+		margin-bottom: 0;
+	}
+
+	h4 {
+		font-size: 0.7em;
+		font-weight: 700;
+		margin-top: 0em;
+		margin-bottom: 0;
+		font-style: oblique;
+
+	}
+	
+	li {
+	    margin-top: 0.5em;
+	}
+
+	p {
+		margin-top: 0.5em;		
+	}
+
+	hr {
+	    width: 25%;
+	    margin-left: 0;
+	    margin-top: 2em;
+	    margin-bottom: 1em;
+	    border: solid 1px rgba(46, 46, 46, 1);
+
+	}
+
+	.footerp {
+		margin-top: 3em;
+		margin-bottom: 1em;
+		font-size: 0.7em;
+		text-align: center;
+		color: rgba(46, 46, 46, 0.7);
+		line-height: 1.5em;
+				
+	}
+
+	.foota:link {
+	    color: rgba(46, 46, 46, 0.7);
+	    text-decoration: underline;
+	    box-shadow: none;
+	}
+
+	.foota:hover {
+	    color: rgba(46, 46, 46, 1);
+	    box-shadow: none;
+	  
+		}
+
+	nav{
+	  width: 100%;
+	}
+
+	nav ul li:first-child {
+	  margin-right: auto;
+	}
+
+	.navul {
+	  margin: 0;
+	  padding: 0;
+	  display: flex;
+	}
+
+	.navli {
+	  list-style-type: none;
+	  margin: 1em;
+	}
+
+	.navp {
+		font-size: 1.5em;
+		font-weight: 700;
+		margin: 0em;	
+	}
+
+	
+	
+	.column {
+	  float: left;
+	  width: 50%;
+	 
+	  margin-top: 2em;
+
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	  margin: 0.5em;
+
+	}
+	
+	.columntext {
+	
+		margin-right: 1em;		
+	}
+
+	img {
+		max-width: 100%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+	.columnimg {
+		max-width: 100%;
+		object-fit: cover;
+		object-position: 100% 0;
+		width: 325px;
+  		height: 325px;
+  		
+ 	}
+
+
+	a:link {
+	    color: rgba(46, 46, 46, 1);
+	    text-decoration: none;
+	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.85);
+		}
+	
+	a:visited {
+	    color: rgba(46, 46, 46, 1);
+	    text-decoration: none;
+	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.85);
+		} 
+		
+	a:hover {
+	    color: rgba(255, 255, 255, 1);
+	    box-shadow: inset 0 -2em 0 rgba(53, 123, 179, 0.85);
+		}    
+		
+	a:active {
+	    font-weight: bold;
+		} 
+
+	::selection {
+		background-color: rgba(53, 123, 179, 0.68);
+		}
+
+
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Light.otf");
+		font-weight: 200;
+		}
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Book.otf");
+		font-weight: 400;
+		}
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Medium.otf");
+		font-weight: 500;
+		}
+		@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Bold.otf");
+		font-weight: 700;
+		}
+	@font-face {
+		font-family: "Gotham Condensed";
+		src: url("fonts/GothamCond-Ultra.otf");
+		font-weight: 900;
+		}
+
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Light.otf");
+		font-weight: 200;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Book.otf");
+		font-weight: 400;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Medium.otf");
+		font-weight: 500;
+		}
+		@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Bold.otf");
+		font-weight: 700;
+		}
+	@font-face {
+		font-family: "Gotham Narrow";
+		src: url("fonts/GothamNarrow-Ultra.otf");
+		font-weight: 900;
+		}
+
+	@media screen and (max-width: 600px) {
+	  .navp {
+	    display: none;
+	  }
+
+	  .column {
+    width: 100%;
+ 	  }
+
+ 	  .columnimg {
+		max-width: 100%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		width: 100%;
+		
+	}
+
+	hr {
+	    width: 50%;
+	    
+
+	}
+
+	}
+
+
