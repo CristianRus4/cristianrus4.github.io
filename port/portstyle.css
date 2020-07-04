@@ -143,6 +143,7 @@
 		object-position: 100% 0;
 		width: 325px;
   		height: 325px;
+  		box-shadow: none;
   		
  	}
 
@@ -236,7 +237,7 @@
 
  	  .columnimg {
 		max-width: 100%;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		
 		width: 100%;
 		
 	}
