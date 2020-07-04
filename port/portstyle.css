@@ -237,7 +237,7 @@
 
  	  .columnimg {
 		max-width: 100%;
-		
+		box-shadow: none;
 		width: 100%;
 		
 	}
