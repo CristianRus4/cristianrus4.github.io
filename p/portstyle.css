@@ -126,23 +126,24 @@
 	.column {
 	  float: left;
 	  width: 50%;
-	 
-	 
 
 	}
+
+	
 
 	.row:after {
 	  content: "";
 	  display: table;
 	  clear: both;
 	  margin: 0.5em;
-	  
+
 
 	}
 	
 	.columntext {
 	
 		margin-right: 1em;
+
 
 	}
 
@@ -161,12 +162,13 @@
 		padding-left: 1em;
 		padding-top: 0.5em;
 		padding-bottom: 0.1em;
+		margin-top: 0.5em;
 	}
 
 
 	img {
 		max-width: 100%;
-		
+
 		
 	}
 	
