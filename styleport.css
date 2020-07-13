@@ -135,6 +135,21 @@
 	
 	}
 
+	.titleresume {
+	
+		text-align: right;
+		font-weight: 700;
+		padding-right: 0.5em;
+	
+	}
+
+	.textresume {
+	
+		padding-left: 0.5em;
+		
+	
+	}
+
 	.specs {
 	
 		background-color: rgba(46, 46, 46, 0.1);
@@ -269,7 +284,7 @@
 
  	h4 {
     margin-top: 0em;
- 	  }
+ 	}
 
  	 
 
