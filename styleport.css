@@ -96,30 +96,7 @@
 	  
 		}
 
-	nav{
-	  width: 100%;
-	}
 
-	nav ul li:first-child {
-	  margin-right: auto;
-	}
-
-	.navul {
-	  margin: 0;
-	  padding: 0;
-	  display: flex;
-	}
-
-	.navli {
-	  list-style-type: none;
-	  margin: 1em;
-	}
-
-	.navp {
-		font-size: 1.5em;
-		font-weight: 700;
-		margin: 0em;	
-	}
 
 	
 	
@@ -182,6 +159,9 @@
   		box-shadow: none;
   		
  	}
+	a.aimg:link {
+		box-shadow: inset 0 0em;
+ 	}
 
 
 	a:link {
@@ -209,7 +189,7 @@
 		background-color: rgba(53, 123, 179, 0.68);
 		}
 
-
+	
 	@font-face {
 		font-family: "Gotham Condensed";
 		src: url("fonts/GothamCond-Light.otf");
