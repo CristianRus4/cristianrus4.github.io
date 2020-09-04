@@ -54,8 +54,19 @@
 		margin-bottom: 0;
 	}
 	
+	ul {
+	  list-style-type: none;
+	}
+
+	ul li:before {
+	  content: '\2013';
+	  position: absolute;
+	  margin-left: -20px;
+	}
+
 	li {
 	    margin-top: 0.5em;
+	    
 	}
 
 	p {
