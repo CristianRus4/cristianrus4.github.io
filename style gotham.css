@@ -1,9 +1,9 @@
 
 	body {
 		background-color: rgba(247, 247, 247, 1);
-		font-family: 'Kreon', sans-serif;
-		font-weight: 330;
-		font-size: 1.08em;
+		font-family: 'Gotham Narrow', sans-serif;
+		font-weight: 400;
+		font-size: 1.05em;
 		line-height: 1.4em;
 		text-align: left;
 		color: rgba(46, 46, 46, 1);
@@ -21,20 +21,19 @@
 
 	.h1index {
 		
-		
-		font-weight: 700	;
-		font-size: 3.03em;
-		line-height: 1em;
+		font-family: 'Gotham Condensed', sans-serif;
+		font-weight: 700;
+		font-size: 4.3em;
 		margin-top: 15%;
-		margin-bottom: 0.3em;
+		margin-bottom: 0;
 	    
 	}
 
 	.h2index {
 		
-		font-size: 1.5em;
+		font-family: 'Gotham Condensed', sans-serif;
+		font-size: 2em;
 		font-weight: 700;
-		margin-top: 1em;
 		margin-bottom: 0;
 	    
 	}
@@ -81,7 +80,7 @@
 	
 	.item {
 		margin-left: 0.5em;
-        border-left: 0.3em solid rgba(53, 123, 179, 0.8); 
+        border-left: 0.3em solid rgba(53, 123, 179, 0.85); 
         padding-left: 0.4em;
         margin-bottom: -0em;
 	}
@@ -123,7 +122,7 @@
 	footer {
 	    background: rgba(46, 46, 46, 1);
 	    border-radius: 0.7em;
-        border-left: 1em solid rgba(53, 123, 179, 0.8);  
+        border-left: 1em solid rgba(53, 123, 179, 0.85);  
 	}  
 	
 	.symbol {
@@ -141,26 +140,26 @@
 	a:link {
 	    color: rgba(46, 46, 46, 1);
 	    text-decoration: none;
-	    box-shadow: inset 0 -0.45em 0 rgba(53, 123, 179, 0.8);
+	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.85);
 		}
 	
 	a:visited {
 	    color: rgba(46, 46, 46, 1);
 	    text-decoration: none;
-	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.8);
+	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.85);
 		} 
 		
 	a:hover {
 	    color: rgba(255, 255, 255, 1);
-	    box-shadow: inset 0 -2em 0 rgba(53, 123, 179, 0.8);
+	    box-shadow: inset 0 -2em 0 rgba(53, 123, 179, 0.85);
 		}    
 		
 	a:active {
-	    font-weight: 550;
+	    font-weight: bold;
 		} 
 
 	::selection {
-		background-color: rgba(53, 123, 179, 0.8);
+		background-color: rgba(53, 123, 179, 0.68);
 		}
 	
 	.blinking-cursor {
@@ -182,7 +181,7 @@
 	    color: transparent;
 	  }
 	  50% {
-	    color: rgba(53, 123, 179, 0.8);
+	    color: rgba(53, 123, 179, 0.68);
 	  }
 	}
 	
@@ -191,7 +190,7 @@
 	    color: transparent;
 	  }
 	  50% {
-	    color: rgba(53, 123, 179, 0.8);
+	    color: rgba(53, 123, 179, 0.68);
 	  }
 	}
 	
@@ -200,7 +199,7 @@
 	    color: transparent;
 	  }
 	  50% {
-	    color: rgba(53, 123, 179, 0.8);
+	    color: rgba(53, 123, 179, 0.85);
 	  }
 	}
 	
@@ -289,52 +288,50 @@
 
 	@media (prefers-color-scheme: dark) {
  			body {
-   				color: rgba(247, 247, 247, 0.8);
+   				color: rgba(247, 247, 247, 1);
   				background-color: rgba(46, 46, 46, 1);
   			}
 
   			a:link {
-			    color: rgba(53, 123, 179, 0.8);
+			    color: rgba(53, 123, 179, 1);
 			    text-decoration: none;
 	   			box-shadow: none;
-	   			font-weight: 650;
-
+	   			font-weight: bold;
 
 			   
 				}
 	
 			a:visited {
-			    color: rgba(53, 123, 179, 0.8);
+			    color: rgba(53, 123, 179, 1);
 			    text-decoration: none;
 	   			box-shadow: none;
-	   			font-weight: 650;
+	   			font-weight: bold;
 			    
 				} 
 				
 			a:hover {
-			    color: rgba(247, 247, 247, 0.8);
+			    color: rgba(247, 247, 247, 1);
 			   	text-decoration: none;
-	    		box-shadow: inset 0 -1em 0 rgba(53, 123, 179, 0.8);
+	    			box-shadow: inset 0 -1em 0 rgba(53, 123, 179, 0.85);
 				
 				}    
 				
 			a:active {
 				text-decoration: none;
-	   			box-shadow: inset 0 -1em 0 rgba(53, 123, 179, 0.8);
-	   			font-weight: 550;
+	   			box-shadow: none;
 
 				}
 
 			footer {
 
-			    background: rgba(247, 247, 247, 0.8);
-				border-left: 1em solid rgba(53, 123, 179, 0.8);
+			    background: rgba(247, 247, 247, 0.9);
+				border-left: 1em solid rgba(53, 123, 179, 1);
 
 
 			}  
 
 			.bio {
-	    		color: rgba(46, 46, 46, 0.8);
+	    		color: rgba(46, 46, 46, 1);
 		
 			} 
 
