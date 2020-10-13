@@ -71,6 +71,16 @@
 				
 	}
 	
+	#header {
+		padding-top: 5%;
+		width: 150%;
+		height: 20%;
+		object-fit: scale-down;
+		margin: 0 auto;
+
+				
+	}
+
 	.item {
 		margin-left: 0.5em;
         border-left: 0.3em solid rgba(53, 123, 179, 0.8); 
