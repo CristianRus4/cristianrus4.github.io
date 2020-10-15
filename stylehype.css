@@ -109,8 +109,25 @@
 
   }
 
+ #logono {
+		
+		opacity: 0%;
+			display:block; 
+  width:100%;
+  min-width: 800px;
+  max-width: 1600px;
+  height: 80px;
+
+  }
+
   .fresh {
 	width: 2em;
+	
+  }
+
+  .freshno {
+	width: 2em;
+	opacity: 0%;
 	
   }
 
