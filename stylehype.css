@@ -211,7 +211,9 @@
 	::selection {
 		background-color: rgba(53, 123, 179, 0.8);
 		}
-	
+	a.aimg:link {
+		box-shadow: inset 0 0em;
+ 	}
 	
 
 	@font-face {
