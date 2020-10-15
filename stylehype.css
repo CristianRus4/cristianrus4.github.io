@@ -70,15 +70,26 @@
 		margin-right: 0;
 
 
-				
+		 }
+
+	nav {
+	margin: 0 auto;
+		max-width: 650px;
+	    padding: 0% 10% 0% 10%;
+	    margin-bottom: 3em;
+		display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -0.6em;
+	    
+		
 	}
 
-	header {
+	.logocontainer {
 		padding-top: 5%;
 		width:100%;
   overflow: hidden;
-  margin:0 auto;
-  
+  margin:0 auto;  
   object-fit: cover;
   display: flex;
   justify-content: center;
@@ -95,16 +106,34 @@
   min-width: 800px;
   max-width: 1600px;
   height: 80px;
-  
+
+  }
+
+  .fresh {
+	width: 2em;
+	
+  }
+
+ .fresh:hover {
+	filter: hue-rotate(80deg);
+	  
+  }
+
+  .more {
+	width: 2em;
+	
+	margin-left: auto;
+	
+	
 
 
+	  
+  }
 
-		
-		
-		
-
-				
-	}
+  .more:hover {
+	filter: hue-rotate(250deg);
+	  
+  }
 
 	.item {
 		margin-left: 0.5em;
