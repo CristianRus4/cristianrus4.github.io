@@ -102,10 +102,11 @@
 	
 	#logo {
 	
- width: 50%; 
+ width: 20%;
 
-  max-width: 200px;
-  min-width: 180px;
+  
+  min-width: 100px;
+
   margin-left: auto;
   }
 
