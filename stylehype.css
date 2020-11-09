@@ -154,9 +154,9 @@
 	  
   }
 
-	.item {
-		margin-left: 0.5em;
-        border-left: 0.3em solid rgba(53, 123, 179, 0.8); 
+	.itemblue {
+		margin-left: 0em;
+        border-left: 0.3em solid rgba(53, 123, 179, 1); 
         padding-left: 0.4em;
         margin-bottom: -0em;
 	}
