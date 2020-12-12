@@ -141,7 +141,7 @@ a{text-decoration:none}i,blockquote{font-style:italic;}
 
 .menu ul li{display:inline-block;float:none;margin:0 10px 10px 10px;}
 
-}.post{margin:0 0 50px 0;padding:70px;background-color:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 5px 4px -4px rgba(0,0,0,0.1);-moz-box-shadow:0 5px 4px -4px rgba(0,0,0,0.1);box-shadow:0 5px 4px -4px rgba(0,0,0,0.1);}
+}.post{margin:0 0 50px 0;padding:70px;background-color:#333333;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 5px 4px -4px rgba(0,0,0,0.1);-moz-box-shadow:0 5px 4px -4px rgba(0,0,0,0.1);box-shadow:0 5px 4px -4px rgba(0,0,0,0.1);}
 
 .post:last-child{margin:0;}
 
