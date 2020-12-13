@@ -141,7 +141,7 @@ a{text-decoration:none}i,blockquote{font-style:italic;}
 
 .menu ul li{display:inline-block;float:none;margin:0 10px 10px 10px;}
 
-}.post{margin-bottom: 20px}
+}.post{margin-bottom: 5%; margin-top: 5%}
 
 .post:last-child{margin:0;}
 
