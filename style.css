@@ -79,8 +79,7 @@
 	
 	
 hr { 
-margin-top: 1em;
-margin-bottom: 1em;
+margin: 2em;
   border: 0; 
   height: 1px; 
   background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
