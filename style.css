@@ -1,10 +1,10 @@
 
 	body {
 		background-color: rgba(247, 247, 247, 1);
-		font-family: 'Inter', serif;
+		font-family: 'Erode', serif;
 
-		font-weight: 390;
-		font-size: 1em;
+		font-weight: 400;
+		font-size: 1.05em;
 		line-height: 1.6em;
 		letter-spacing: -0.00em;
 
@@ -77,7 +77,8 @@
 	}
 
 	p {
-		margin-top: 0.5em;		
+		margin-top: 0.5em;
+
 	}
 	
 	
@@ -347,6 +348,16 @@
 	@font-face {
 	  font-family: 'Kreon';
 	  src: url('fonts/KreonVariable.ttf') format('truetype');
+	}
+
+	@font-face {
+	  font-family: 'Erode';
+	  src: url('fonts/Erode.ttf') format('truetype');
+	}
+
+	@font-face {
+	  font-family: 'Erode Italic';
+	  src: url('fonts/Erode-Italic.ttf') format('truetype');
 	}
 
 
