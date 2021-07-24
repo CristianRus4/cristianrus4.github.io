@@ -1,12 +1,11 @@
 
 	body {
 		background-color: rgba(247, 247, 247, 1);
-		font-family: 'Erode', serif;
-
-		font-weight: 450;
-		font-size: 1.1em;
+		font-family: 'Gotham Narrow', sans-serif;
+		font-weight: 400;
+		font-size: 1.05em;
 		line-height: 1.6em;
-		letter-spacing: -0.00em;
+		
 
 		text-align: left;
 		color: rgba(51, 51, 51, 1);
