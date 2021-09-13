@@ -80,7 +80,8 @@
 		
 	}
 
-	#namelight {
+	#name {
+		display: all;
 		position: absolute;
 		top: 10%;
 		width: 90%;
@@ -141,55 +142,4 @@
 	  src: url('fonts/Quattro.ttf') format('truetype');
 	}
 
-	@media (prefers-color-scheme: dark) {
- 			html {
-   				color: rgba(247, 247, 247, 1);
-  				background-color: rgba(51, 51, 51, 1);
-  			}
-
-  			a:link {
-			    color: rgba(247, 247, 247, 1);
-			    text-decoration: none;
-	   			box-shadow: none;
-			   
-				}
 	
-			a:visited {
-			    color: rgba(247, 247, 247, 1);
-			    text-decoration: none;
-	   			box-shadow: none;
-	   			font-weight: 650;
-			    
-				} 
-				
-			a:hover {
-			    color: rgba(51, 51, 51, 1);
-			   	text-decoration: none;
-	    		box-shadow: inset 0 -2em 0 rgba(247, 247, 247, 1);
-				
-				}    
-				
-			a:active {
-				font-weight: 600;
-
-				}
-
-			hr { 
-				  margin-top: 0em;
-				  margin-bottom: 0em;
-				  border: 1px solid rgba(247, 247, 247, 1); 
-			}
-		
-
-			#namelight {
-				display: none;
-		
-			}
-
-			#namedark {
-				position: absolute;
-				top: 10%;
-				width: 90%;
-			}
-		
-		}
