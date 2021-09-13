@@ -12,6 +12,7 @@
 		line-height: 1.6em;
 		text-align: left;
 		margin: left;
+		margin-top: 10%;
 		max-width: 650px;
 		min-width: 300px;
 	    padding: 0% 5% 0% 5%;
@@ -19,7 +20,7 @@
 	}
 
 	nav {
-		margin-top: 20%;
+		
 		margin-bottom: 10%;	
 	}
 
@@ -103,7 +104,7 @@
 		font-size: 0.6em;
 		line-height: 1.6em;
 		text-align: left;
-	    margin-top: 0em;
+	    margin-top: 2em;
 		margin-bottom: 3em;  
 	}  
 	
