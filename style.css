@@ -1,342 +1,175 @@
 
-	body {
+	html{
 		background-color: rgba(247, 247, 247, 1);
-		font-family: 'Gotham Narrow', sans-serif;
-		font-weight: 400;
-		font-size: 1.05em;
-		line-height: 1.6em;
-		
-
-		text-align: left;
+		font-family: 'Quattro', sans-serif;
 		color: rgba(51, 51, 51, 1);
-		margin: 0 auto;
+	}
+
+
+	body {
+		font-weight: 200;
+		font-size: 1em;
+		line-height: 1.6em;
+		text-align: left;
+		margin: left;
+		margin-top: 10%;
 		max-width: 650px;
-	    padding: 0% 10% 0% 10%;
-	    margin-bottom: 3em;
+		min-width: 300px;
+	    padding: 0% 5% 0% 5%;
+	    margin-bottom: 0em;
 	}
 
-	.bodyindex {
+	nav {
 		
-		max-width: 300px;
-	    
-	}
-
-	.h1index {
-		
-		
-		font-weight: 700	;
-		font-size: 2.7em;
-		line-height: 1em;
-		margin-top: 15%;
-		margin-bottom: 0.3em;
-	    
-	}
-
-	.h2index {
-		
-		font-size: 1.5em;
-		font-weight: 700;
-		margin-top: 1em;
-		margin-bottom: 0;
-	    
-	}
-
-	
-
-	
-
-	h1 {
-		font-weight: 700;
-		font-size: 2.5em;
-		line-height: 1.2em;
-		margin-top: 15%;
-		margin-bottom: 0.5em;
-	}
-	
-	h2 {
-		font-size: 1.5em;
-		font-weight: 700;
-		margin-top: 1em;
-		margin-bottom: 0;
-	}
-	
-	ul {
-	  list-style-type: none;
-	}
-
-	ul li:before {
-	  content: '\2013';
-	  position: absolute;
-	  margin-left: -20px;
-	}
-
-	li {
-	    margin-top: 0.5em;
-	    
+		margin-bottom: 10%;	
 	}
 
 	p {
-		margin-top: 0.5em;
+		margin-top: 0.3em;
+		margin-bottom: 0.3em;
+	}
+
+	b {
+		font-weight: 600;
+	}
+
+
+
+	h1 {
+		font-size: 5em;
+		font-weight: 800;
+	}
+
+	h2 {
+		font-size: 1.8em;
+		font-weight: 600;
+		margin-top: 1.5em;
+		margin-bottom: 0.5em;
+	}
+
+	h3 {
+		font-size: 0.3em;
+		font-weight: 200;
+		margin-top: -1em;
+		text-align: right;
 
 	}
-	
 	
 	hr { 
-	  margin-top: 2em;
-	  margin-bottom: 2em;
-	  border: 0; 
-	  height: 1px; 
-	  background-image: -webkit-linear-gradient(left, rgba(247, 247, 247, 1), rgba(51, 51, 51, 1), rgba(247, 247, 247, 1));
-	  background-image: -moz-linear-gradient(left, rgba(247, 247, 247, 1), rgba(51, 51, 51, 1), rgba(247, 247, 247, 1));
-	  background-image: -ms-linear-gradient(left, rgba(247, 247, 247, 1), rgba(51, 51, 51, 1), rgba(247, 247, 247, 1));
-	  background-image: -o-linear-gradient(left, rgba(247, 247, 247, 1), rgba(51, 51, 51, 1), rgba(247, 247, 247, 1)); 
+	  margin-top: 0em;
+	  margin-bottom: 0em;
+	  border: 1px solid rgba(51, 51, 51, 1); 
 	}
 	
-
-	img {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	}
-
-	mark {
-		background-color: rgba(255, 255, 0, 0.3);
-	}
 	
 	figure {
-		margin-bottom: 2em;
 		margin-left: 0;
 		margin-right: 0;
-				
 	}
-	
-	.item {
-		margin-left: 0.5em;
-        border-left: 0.3em solid rgba(53, 123, 179, 0.8); 
-        padding-left: 0.4em;
-        margin-bottom: -0em;
-	}
-	
-	.tit {
-		font-weight: 500;
-	}
-	
-	.textitem {
-		font-weight: 400;
-	}
-	
-	.aut {
-		font-size: 0.9em;
-		font-weight: 400;
-		font-style: oblique;
-	
-	}
-	
-	.dat {
-		font-size: 0.6em;
-		padding: 0.2em;
-		font-weight: 200;
-		color: rgba(247, 247, 247, 1);
-		background-color: rgba(51, 51, 51, 0.5);		
-	}
-	
-	.att {
-		font-size: 0.8em;
-		font-weight: 400;
+
+	img {
+		
 	}
 
 
-	figcaption {
+	#identity {
+		position: relative;
+
+		
+	}
+
+	#identity2 {
+		padding-top: 60%;
+
+		
+	}
+
+	#name {
+		display: all;
+		position: absolute;
+		top: 10%;
+		width: 90%;
+		
+	}
+
+	
+
+	#profile {
+		position: absolute;
+		left: 56%;
+		top: 9%;
+		width: 37%;
+		z-index: -1;
+
+	}
+
+
+	.above {
 		text-align: right;
-		font-size: 0.7em;
-		margin-right: 1em;
-		font-weight: 200;
-		color: rgba(51, 51, 51, 0.7);
-		font-style: oblique;		
+
 	}
-	
+
+	.item {
+		border-left: 2px solid rgba(51, 51, 51, 1);
+		margin-left: 1em;
+		padding-left: 0.5em;
+
+	}
+
+	.tit {
+		font-weight: 600;
+
+	}
+
+	.aut {
+		font-style: italic;
+
+	}
+
+	.dat {
+		font-size: 0.7em;
+		box-shadow: inset 0 -1.4em 0 rgba(51, 51, 51, 0.5);
+		padding-left: 0.3em;
+		padding-right: 0.3em;
+		color: rgba(247, 247, 247, 1);
+
+	}
+
 	footer {
-	    margin-top: 3em;
-		margin-bottom: 0em;  
+		font-weight: 350;
+		font-size: 0.6em;
+		line-height: 1.6em;
+		text-align: left;
+	    margin-top: 2em;
+		margin-bottom: 3em;  
 	}  
 	
-	.footerp {
-		
-		font-size: 0.7em;
-		text-align: center;
-		color: rgba(51, 51, 51, 0.7);
-		line-height: 1.5em;
-				
-	}
-
-	.foota:link {
-	    color: rgba(51, 51, 51, 0.7);
-	    text-decoration: underline;
-	    box-shadow: none;
-	}
-
-	.foota:hover {
-	    color: rgba(51, 51, 51, 1);
-	    box-shadow: none;
-	  
-		}
-		
-	.symbol {
-		margin-top:3em;
-		margin-bottom: -2em;  
-	}
-
-	.bio {
-	    color: rgba(255, 255, 255, 1);
-		display:flex;
-		align-items:center;
-		
-	} 
-
 	a:link {
 	    color: rgba(51, 51, 51, 1);
 	    text-decoration: none;
-	    box-shadow: inset 0 -0.45em 0 rgba(53, 123, 179, 0.8);
+	    font-style: italic;
 		}
 	
 	a:visited {
 	    color: rgba(51, 51, 51, 1);
 	    text-decoration: none;
-	    box-shadow: inset 0 -0.4em 0 rgba(53, 123, 179, 0.8);
+	    font-style: italic;
 		} 
 		
 	a:hover {
-	    color: rgba(255, 255, 255, 1);
-	    box-shadow: inset 0 -2em 0 rgba(53, 123, 179, 0.8);
+	    color: rgba(247, 247, 247, 1);
+	    box-shadow: inset 0 -2em 0 rgba(51, 51, 51, 1);
 		}    
 		
 	a:active {
-	    font-weight: 550;
+	    font-weight: 600;
 		} 
 
-	::selection {
-		background-color: rgba(53, 123, 179, 0.8);
-		}
 	
-	.blinking-cursor {
-	font-size: 1em;
-	margin-top: 15px;
-	margin-left: 0px;
-	margin-bottom: -10px;
-	color: #2e2e2e;
-	-webkit-animation: 1s blink step-end infinite;
-	-moz-animation: 1s blink step-end infinite;
-	-ms-animation: 1s blink step-end infinite;
-	-o-animation: 1s blink step-end infinite;
-	animation: 1s blink step-end infinite;
 	
-	}
-	
-	@keyframes "blink" {
-	  from, to {
-	    color: transparent;
-	  }
-	  50% {
-	    color: rgba(53, 123, 179, 0.8);
-	  }
-	}
-	
-	@-moz-keyframes blink {
-	  from, to {
-	    color: transparent;
-	  }
-	  50% {
-	    color: rgba(53, 123, 179, 0.8);
-	  }
-	}
-	
-	@-webkit-keyframes "blink" {
-	  from, to {
-	    color: transparent;
-	  }
-	  50% {
-	    color: rgba(53, 123, 179, 0.8);
-	  }
-	}
-	
-	@-ms-keyframes "blink" {
-	  from, to {
-	    color: transparent;
-	  }
-	  50% {
-	    color: #2e2e2e;
-	  }
-	}
-	
-	@-o-keyframes "blink" {
-	  from, to {
-	    color: transparent;
-	  }
-	  50% {
-	    color: #2e2e2e;
-	  }
-	}
-
-
-	@font-face {
-		font-family: "Gotham Condensed";
-		src: url("fonts/GothamCond-Light.otf");
-		font-weight: 200;
-		}
-	@font-face {
-		font-family: "Gotham Condensed";
-		src: url("fonts/GothamCond-Book.otf");
-		font-weight: 400;
-		}
-	@font-face {
-		font-family: "Gotham Condensed";
-		src: url("fonts/GothamCond-Medium.otf");
-		font-weight: 500;
-		}
-		@font-face {
-		font-family: "Gotham Condensed";
-		src: url("fonts/GothamCond-Bold.otf");
-		font-weight: 700;
-		}
-	@font-face {
-		font-family: "Gotham Condensed";
-		src: url("fonts/GothamCond-Ultra.otf");
-		font-weight: 900;
-		}
-
-	@font-face {
-		font-family: "Gotham Narrow";
-		src: url("fonts/GothamNarrow-Light.otf");
-		font-weight: 200;
-		}
-	@font-face {
-		font-family: "Gotham Narrow";
-		src: url("fonts/GothamNarrow-Book.otf");
-		font-weight: 400;
-		}
-	@font-face {
-		font-family: "Gotham Narrow";
-		src: url("fonts/GothamNarrow-Medium.otf");
-		font-weight: 500;
-		}
-		@font-face {
-		font-family: "Gotham Narrow";
-		src: url("fonts/GothamNarrow-Bold.otf");
-		font-weight: 700;
-		}
-	@font-face {
-		font-family: "Gotham Narrow";
-		src: url("fonts/GothamNarrow-Ultra.otf");
-		font-weight: 900;
-		}
-
-
 	@font-face {
 	  font-family: 'Inter';
 	  src: url('fonts/Inter.ttf') format('truetype');
-	}
-
-	@font-face {
-	  font-family: 'Roboto Slab';
-	  src: url('fonts/RobotoSlabVariable.ttf') format('truetype');
 	}
 
 	@font-face {
@@ -344,115 +177,4 @@
 	  src: url('fonts/Quattro.ttf') format('truetype');
 	}
 
-	@font-face {
-	  font-family: 'Kreon';
-	  src: url('fonts/KreonVariable.ttf') format('truetype');
-	}
-
-	@font-face {
-	  font-family: 'Erode';
-	  src: url('fonts/Erode.ttf') format('truetype');
-	}
-
-	@font-face {
-	  font-family: 'Erode Italic';
-	  src: url('fonts/Erode-Italic.ttf') format('truetype');
-	}
-
-
-	@media (prefers-color-scheme: dark) {
- 			body {
-   				color: rgba(247, 247, 247, 0.8);
-  				background-color: rgba(51, 51, 51, 1);
-  			}
-
-  			a:link {
-			    color: rgba(53, 123, 179, 0.8);
-			    text-decoration: none;
-	   			box-shadow: none;
-	   			font-weight: 650;
-
-
-			   
-				}
 	
-			a:visited {
-			    color: rgba(53, 123, 179, 0.8);
-			    text-decoration: none;
-	   			box-shadow: none;
-	   			font-weight: 650;
-			    
-				} 
-				
-			a:hover {
-			    color: rgba(247, 247, 247, 0.8);
-			   	text-decoration: none;
-	    		box-shadow: inset 0 -1em 0 rgba(53, 123, 179, 0.8);
-				
-				}    
-				
-			a:active {
-				text-decoration: none;
-	   			box-shadow: inset 0 -1em 0 rgba(53, 123, 179, 0.8);
-	   			font-weight: 550;
-
-				}
-
-			
-
-			.bio {
-	    		color: rgba(51, 51, 51, 0.8);
-		
-			} 
-
-			.foota:link {
-				color: rgba(53, 123, 179, 0.8);
-			   	text-decoration: none;
-	    		
-	  
-			}
-
-			.foota:visited {
-	    		color: rgba(53, 123, 179, 0.8);
-			   	text-decoration: none;
-	    		
-	  
-			}
-
-			.foota:hover {
-	    		color: rgba(247, 247, 247, 0.8);
-			   	text-decoration: none;
-	    		box-shadow: inset 0 -1em 0 rgba(53, 123, 179, 0.8);
-	  
-			}
-
-			figure {
-
-								
-			}
-		
-
-			figcaption {
-
-				color: rgba(247, 247, 247, 0.7);
-
-			}
-			
-			.dat {
-				color: rgba(51, 51, 51, 1);
-				background-color: rgba(247, 247, 247, 0.8);
-			}
-
-			hr { 
-			  margin-top: 2em;
-			  margin-bottom: 2em;
-			  border: 0; 
-			  height: 1px; 
-			  background-image: -webkit-linear-gradient(left, rgba(51, 51, 51, 1), rgba(247, 247, 247, 1), rgba(51, 51, 51, 1));
-			  background-image: -moz-linear-gradient(left, rgba(51, 51, 51, 1), rgba(247, 247, 247, 1), rgba(51, 51, 51, 1));
-			  background-image: -ms-linear-gradient(left, rgba(51, 51, 51, 1), rgba(247, 247, 247, 1), rgba(51, 51, 51, 1));
-			  background-image: -o-linear-gradient(left, rgba(51, 51, 51, 1), rgba(247, 247, 247, 1), rgba(51, 51, 51, 1)); 
-	}
-			
-
-		}
