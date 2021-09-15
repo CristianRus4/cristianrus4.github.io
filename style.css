@@ -89,7 +89,7 @@
 	hr { 
 	  margin-top: 0em;
 	  margin-bottom: 0em;
-	  border: 1px solid rgba(51, 51, 51, 1); 
+	  border-top: 2px solid rgba(51, 51, 51, 1); 
 	}
 
 
@@ -116,6 +116,15 @@
 	 
 	}
 	
+	.specs {
+	  border: 2px solid rgba(51, 51, 51, 1);
+	  background-color: rgba(51, 51, 51, 0.1);
+	  padding-left: 0.5em;
+	  padding-top: 0.1em;
+	  padding-bottom: 0.1em;
+	 
+	}
+
 	figure {
 		margin-left: 0;
 		margin-right: 0;
