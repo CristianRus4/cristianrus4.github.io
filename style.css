@@ -73,7 +73,7 @@
 
 	.label {
 		font-size: 0.8em;
-		font-weight: 600;
+		font-weight: 400;
 		float: right;
 		text-align: right;
 		margin-top: -1.6em;
@@ -286,6 +286,13 @@
 		display: none;
 
 		
+	}
+
+	.row {
+	  
+	  border-left: 2px solid rgba(247, 247, 247, 1); 
+	  border-top: 2px solid rgba(247, 247, 247, 1); 
+	 
 	}
 
 	
