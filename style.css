@@ -74,6 +74,13 @@
 		
 	}
 
+	figcaption {
+		text-align: right;
+		font-size: 0.7em;
+		font-style: italic;
+		margin-top: -0.7em;
+	}
+
 
 	#identity {
 		position: relative;
