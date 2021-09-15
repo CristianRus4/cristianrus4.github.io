@@ -93,13 +93,7 @@
 	}
 
 
-	.hrport {
-	  margin-left: 0;	
-	  width: 70%;
-	  margin-top: 0em;
-	  margin-bottom: -0.4em;
-	  border: 1px solid rgba(51, 51, 51, 1); 
-	}
+	
 
 
 
@@ -333,7 +327,24 @@
 	}
 
 
+	@media screen and (max-width: 600px) {
+	  
 
+	  .column {
+    width: 100%;
+ 	  }
+
+ 	  .row {
+	  display: inherit;
+
+	}
+
+	.label {
+		display: none;
+
+	}
+		
+	}
 
 
 
