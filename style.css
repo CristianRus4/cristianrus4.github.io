@@ -5,6 +5,13 @@
 		color: rgba(51, 51, 51, 1);
 	}
 
+	#glitched {
+		background-image: url('images/glitch.gif');
+    	background-size: 100px;
+		font-family: 'Quattro', sans-serif;
+		color: rgba(51, 51, 51, 1);
+	}
+
 
 	body {
 		font-weight: 200;
