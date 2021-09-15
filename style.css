@@ -304,7 +304,12 @@
 	 
 	}
 
-	
+	.specs {
+	  border: 2px solid rgba(247, 247, 247, 1);
+	  background-color: rgba(247, 247, 247, 0.1);
+	  
+	 
+	}
 
 	
 	hr { 
