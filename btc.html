@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+	
+
+
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<title>BTC – Cristian Rus</title>
+	</head>
+	
+
+	<body>
+	
+		<article>
+
+			<h1>BTC wallet</h1>
+
+			<p class="above"><a href="#" onclick="CopyToClipboard('address');return false;">copy address</a> –></p>
+
+			<hr>
+
+			<br>
+
+			<p class="noheight"><b>PAY TO:</b> Cristian Rus</p>
+			<p class="noheight"><b>ADDRESS:</b> <span id="address">3LbiYbohEeNqHFTb4baKjiwUSAjqsghPBP</span></p>
+			<p class="noheight"><b>CURRENCY:</b> Bitcoin</p>
+			
+
+			<figure>
+
+			<img width="100%" height="auto" src="images/crypto/btc-wallet.webp">
+				
+			</figure>
+
+		</article>
+
+	</body>
+
+<script>
+function CopyToClipboard(id)
+{
+var r = document.createRange();
+r.selectNode(document.getElementById(id));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(r);
+document.execCommand('copy');
+window.getSelection().removeAllRanges();
+}
+</script>
+	<footer>
+		<hr>
+		<p>This website practices <a href="https://ind.ie/ethical-design/">Ethical Design</a>.</p>
+	</footer>
+
+</html>
+	
