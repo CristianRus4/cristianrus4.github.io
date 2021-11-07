@@ -36,7 +36,6 @@
 	}
 
 
-
 	h1 {
 		font-size: 4em;
 		font-weight: 800;
@@ -206,6 +205,15 @@
 		color: rgba(247, 247, 247, 1);
 
 	}
+
+
+	button {
+		border-left: 2px solid rgba(51, 51, 51, 1); 
+		margin-left: 1em;
+		padding-left: 0.5em;
+		font-size: 0.8em;
+	} 
+
 
 	footer {
 		font-weight: 350;
