@@ -230,6 +230,21 @@ audio::-webkit-media-controls-time-remaining-display {
   display: none;
 }
 
+.playerbutton{
+  width: 74px;
+  height: 74px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 37px 0px 37px 74px;
+  border-color: transparent transparent transparent steelblue;
+  transition: all 100ms ease-in-out;
+}
+
+.pause{
+  border-style: double;
+  border-width:0px 0px 0px 60px;
+}
+
 
 	footer {
 		font-weight: 350;
