@@ -40,12 +40,6 @@
 
 	}
 
-	.hyper2 {
-  float: left;
-  margin-top: 80%;
-  
-	}
-
 	body {
 		font-size: 1em;
 		line-height: 1.6em;
@@ -72,18 +66,22 @@
 	
 
 	h1 {
-		font-size: 8em;
+		font-size: 6em;
 		font-family: 'QuattroBo', sans-serif;
-		position: absolute;
-		bottom: 10%;
-		right: 10%;
+		float: right;
+		right: 0;
+		max-width: 800px
+		min-width: 100px;
 	}
 
-	h2 {
+	.subtitle{
+
 		font-size: 2em;
-		font-family: 'Quattro', sans-serif;
-		margin-bottom: 0em;
-		line-height: 1em;
+		font-family: 'QuattroBo', sans-serif;
+		max-width: 600px;
+		line-height: 1.4em;
+		font-weight: 100;
+
 	}
 	
 
@@ -110,23 +108,16 @@
 
 
 	#name {
+		font-size: 3em;
 		position: absolute;
 		right: 10%;
 		top: 80%;
 		width: 70%;
 		max-width: 1000px;
+		min-width: 200px;
 		
 	}
 
-	#namewhite {
-		display: none;
-		position: absolute;
-		right: 10%;
-		top: 80%;
-		width: 70%;
-		max-width: 1000px;
-		
-	}
 
 
 
@@ -139,23 +130,10 @@
 		color: #F0F0F0;
 	}
 
+	.redacted {
+  background-color: #F0F0F0
 
-	#namewhite {
-		display: inherit;
-		position: absolute;
-		right: 10%;
-		top: 80%;
-		width: 70%;
-		max-width: 1000px;
-		
 	}
-
-	#name {
-		display: none;
-
-		
-	}
-
 
 	a:link {
 	  color: #F0F0F0;
@@ -174,3 +152,23 @@
 	  text-decoration: none;
 	  font-family: QuattroIt, sans-serif;
 	}    
+
+@media screen and (max-width: 750px) {
+
+
+
+h1 {
+		font-size: 4em;
+	}
+
+}  
+
+@media screen and (max-width: 550px) {
+
+
+
+h1 {
+		font-size: 2.8em;
+	}
+
+}  
