@@ -22,23 +22,15 @@
 		color: #1B1B1B;
 	}
 	
-
-	body {
-		font-size: 1.2em;
-		line-height: 1.6em;
-		text-align: left;
-		margin: 0 auto;
-		padding: 0 10%;
-		margin-top: 10%;
-		max-width: 800px;
-		min-width: 300px;
-
-
+	nav {
+		
 	}
+
 
 	.hyper {
   float: right;
-  margin-top: -4em;
+  margin-left: 1.5em;
+
 	}
 
 	.hyper2 {
@@ -47,10 +39,22 @@
   
 	}
 
-	article {
-	
+	body {
+		font-size: 1em;
+		line-height: 1.6em;
+		text-align: left;
+		margin: 0 auto;
+		padding: 0 10%;
+		margin-top: 15%;
+		max-width: 800px;
+		min-width: 300px;
+
 
 	}
+
+	
+
+		
 
 	p {
 		margin-top: 0.5em;
@@ -69,8 +73,8 @@
 	}
 
 	h2 {
-		font-size: 2.5em;
-		font-family: 'QuattroBo', sans-serif;
+		font-size: 2em;
+		font-family: 'Quattro', sans-serif;
 		margin-bottom: 0em;
 		line-height: 1em;
 	}
@@ -97,15 +101,25 @@
 	  font-family: QuattroIt, sans-serif;
 	}  
 
+
 	#name {
-		float: right;
-		width: 80%;
-		min-width: 300px;
-		margin-top: 80%;
-	
+		position: absolute;
+		right: 10%;
+		top: 80%;
+		width: 70%;
+		max-width: 1000px;
+		
 	}
 
-	
+	#namewhite {
+		display: none;
+		position: absolute;
+		right: 10%;
+		top: 80%;
+		width: 70%;
+		max-width: 1000px;
+		
+	}
 
 
 
@@ -117,6 +131,24 @@
 		background-color: #1B1B1B;
 		color: #F0F0F0;
 	}
+
+
+	#namewhite {
+		display: inherit;
+		position: absolute;
+		right: 10%;
+		top: 80%;
+		width: 70%;
+		max-width: 1000px;
+		
+	}
+
+	#name {
+		display: none;
+
+		
+	}
+
 
 	a:link {
 	  color: #F0F0F0;
