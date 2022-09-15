@@ -15,8 +15,8 @@
 		}
 
 		@font-face {
-  	font-family: GothamCondBold;
-  	src: url(fonts/GothamCond-Ultra.otf);
+  	font-family: GothamXNBlack;
+  	src: url(fonts/GothamXNarrow-Black.otf);
 		}
 
  
@@ -30,6 +30,8 @@
 	nav {
 		
 	}
+
+
 
 
 	.hyper {
@@ -54,8 +56,7 @@
 		margin-top: 15%;
 		max-width: 800px;
 		min-width: 300px;
-		position: relative;
-		height: 100%;
+		
 		
 	}
 
@@ -73,28 +74,25 @@
 	
 
 	h1 {
-		
-   		bottom: 0;
-   		font-size: 10em;
-		font-family: 'GothamCondBold', sans-serif;
-		float: right;
-		right: 0;
+		position: fixed;
+   		bottom: 10%;
+   		right: 10%;
+   		font-size: 8.5em;
+		font-family: 'GothamXNBlack', sans-serif;		
 		margin-bottom: 0;
 		line-height: 1em;
 		text-align: right;
 		font-weight: 900;
 		
-	
-		
 	}
 
-	.subtitle{
-
 	
+
+	.subtitle {
 		font-size: 2em;
 		font-family: 'QuattroBo', sans-serif;
 		max-width: 600px;
-		line-height: 1.4em;
+		line-height: 1.2em;
 		font-weight: 100;
 
 	}
@@ -122,41 +120,54 @@
 	}  
 
 
-	#name {
-		font-size: 3em;
-		position: absolute;
-		right: 10%;
-		top: 80%;
-		width: 70%;
-		max-width: 1000px;
-		min-width: 200px;
-		
-	}
+@media only screen and (min-width: 1000px) {
+  h1 {
+  	
+    position: relative;
+    float: right;
+   	right: 0;
+   	margin-top: 300px;
+
+  }
+}
 
 
 @media only screen and (max-width: 800px) {
   h1 {
   
-    font-size: 8em;
+    font-size: 7em;
 
-
+	
   }
+
+  .subtitle {
+
+		font-size: 1.6em;	
+
+	}
+
 }
+
+
 
 @media only screen and (max-width: 635px) {
   h1 {
   	
-    font-size: 7em;
-
-
+    font-size: 6em;
 
   }
+
+  .subtitle {
+
+		font-size: 1.4em;	
+
+	}
 }
 
 @media only screen and (max-width: 555px) {
   h1 {
   	
-    font-size: 6em;
+    font-size: 5em;
 
 
 
@@ -167,7 +178,7 @@
 @media only screen and (max-width: 480px) {
   h1 {
   	
-    font-size: 4.5em;
+    font-size: 4em;
    	float: left;
 
 
