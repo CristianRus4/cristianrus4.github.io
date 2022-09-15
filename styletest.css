@@ -15,8 +15,28 @@
 		}
 
 		@font-face {
+  	font-family: GothamXNBookk;
+  	src: url(fonts/GothamXNarrow-Book.otf);
+		}
+
+		@font-face {
+  	font-family: GothamXNMedium;
+  	src: url(fonts/GothamXNarrow-Medium.otf);
+		}
+
+		@font-face {
+  	font-family: GothamXNBold;
+  	src: url(fonts/GothamXNarrow-Bold.otf);
+		}
+
+		@font-face {
   	font-family: GothamXNBlack;
   	src: url(fonts/GothamXNarrow-Black.otf);
+		}
+
+		@font-face {
+  	font-family: GothamXNUltra;
+  	src: url(fonts/GothamXNarrow-Ultra.otf);
 		}
 
  
@@ -90,6 +110,7 @@
 
 	.subtitle {
 		font-size: 2em;
+		font-weight: 900;
 		font-family: 'QuattroBo', sans-serif;
 		max-width: 600px;
 		line-height: 1.2em;
