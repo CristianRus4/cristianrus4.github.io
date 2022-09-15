@@ -14,6 +14,11 @@
   	src: url(fonts/QuattroBo.woff);
 		}
 
+		@font-face {
+  	font-family: GothamCondBold;
+  	src: url(fonts/GothamCond-Ultra.otf);
+		}
+
  
 
 	html{
@@ -49,8 +54,14 @@
 		margin-top: 15%;
 		max-width: 800px;
 		min-width: 300px;
+		position: relative;
+		height: 100%;
+		
+	}
 
-
+	article {
+		
+		background-color: brown;
 	}
 
 	
@@ -66,16 +77,25 @@
 	
 
 	h1 {
-		font-size: 6em;
-		font-family: 'QuattroBo', sans-serif;
+		
+   		bottom: 0;
+   		font-size: 10em;
+		font-family: 'GothamCondBold', sans-serif;
 		float: right;
 		right: 0;
-		max-width: 800px
-		min-width: 100px;
+		margin-bottom: 0;
+		line-height: 1em;
+		text-align: right;
+		font-weight: 900;
+		
+	
+		
 	}
 
 	.subtitle{
 
+		position: absolute;
+        bottom: 200px;
 		font-size: 2em;
 		font-family: 'QuattroBo', sans-serif;
 		max-width: 600px;
@@ -119,9 +139,46 @@
 	}
 
 
+@media only screen and (max-width: 800px) {
+  h1 {
+  
+    font-size: 8em;
 
 
-	
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  h1 {
+  	
+    font-size: 7em;
+
+
+
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  h1 {
+  	
+    font-size: 6em;
+
+
+
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  h1 {
+  	
+    font-size: 4.5em;
+   
+
+
+  }
+}
+
 	@media (prefers-color-scheme: dark) {
 
 
@@ -153,22 +210,4 @@
 	  font-family: QuattroIt, sans-serif;
 	}    
 
-@media screen and (max-width: 750px) {
 
-
-
-h1 {
-		font-size: 4em;
-	}
-
-}  
-
-@media screen and (max-width: 550px) {
-
-
-
-h1 {
-		font-size: 2.8em;
-	}
-
-}  
