@@ -59,11 +59,7 @@
 		
 	}
 
-	article {
-		
-		background-color: brown;
-	}
-
+	
 	
 
 		
@@ -94,8 +90,7 @@
 
 	.subtitle{
 
-		position: absolute;
-        bottom: 200px;
+	
 		font-size: 2em;
 		font-family: 'QuattroBo', sans-serif;
 		max-width: 600px;
@@ -173,7 +168,7 @@
   h1 {
   	
     font-size: 4.5em;
-   
+   	float: left;
 
 
   }
