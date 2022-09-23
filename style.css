@@ -82,7 +82,23 @@
 
 	
 	
+	h1 {
+		font-size: 8.5em;
+		font-family: 'GothamXNBlack', sans-serif;		
+		margin-bottom: 0;
+		line-height: 1em;
+		text-align: right;
+		font-weight: 900;
+	}
 
+	h2 {
+		font-size: 2em;
+		font-family: 'QuattroBo', sans-serif;		
+		margin-bottom: 0;
+		line-height: 1em;
+		
+	
+	}
 		
 
 	p {
@@ -95,14 +111,9 @@
 
 	#name {
 		position: fixed;
-   		bottom: 10%;
-   		right: 10%;
-   		font-size: 8.5em;
-		font-family: 'GothamXNBlack', sans-serif;		
-		margin-bottom: 0;
-		line-height: 1em;
-		text-align: right;
-		font-weight: 900;
+   	bottom: 10%;
+   	right: 10%;
+   	
 		
 	}
 
@@ -154,7 +165,7 @@
 
 
 @media only screen and (max-width: 800px) {
-  #name {
+  h1 {
   
     font-size: 7em;
 
@@ -172,7 +183,7 @@
 
 
 @media only screen and (max-width: 635px) {
-  #name {
+  h1 {
   	
     font-size: 6em;
 
@@ -186,7 +197,7 @@
 }
 
 @media only screen and (max-width: 555px) {
-  #name {
+  h1 {
   	
     font-size: 5em;
 
@@ -197,10 +208,10 @@
 
 
 @media only screen and (max-width: 480px) {
-  #name {
+  h1 {
   	
-    font-size: 4em;
-   	float: left;
+    font-size: 4.5em;
+   	
 
 
   }
