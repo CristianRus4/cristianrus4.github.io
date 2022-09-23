@@ -9,59 +9,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-	<title>#CloseYourRings – Cristian Rus</title>
-
-		<script>
-		dateFuture = new Date(2017,12,1,0,0,0);
-
-		function GetCount(){
-
-		dateNow = new Date();
-				       
-		amount = dateNow.getTime() - dateFuture.getTime();                
-				           
-		delete dateNow;
-
-		if(amount < 0){
-			document.getElementById('countbox').innerHTML="Fin!";
-		}
-				            
-		else{
-
-		days=0;hours=0;mins=0;secs=0;out="";
-
-		amount = Math.floor(amount/1000);
-
-		days=Math.floor(amount/86400);
-		amount=amount%86400;
-
-
-		if(days != 0){out += "My current streak is " +  days +" days"+((days!=1)?"!":"");}
-				                   
-		document.getElementById('countbox').innerHTML=out;
-
-		setTimeout("GetCount()", 1000);
-		}
-		}
-
-		window.onload=function(){GetCount();}//call when everything has loaded
-
-		//-->
-		</script>
+	<title>Activity – Cristian Rus</title>
 
 	</head>
 	
 	<body>
 
-		<article>
+		
 
 
 		<h1>activity</h1>
 
-		<p class="above">jump to <a href="#2021">2021</a> – <a href="#2020">2020</a> – <a href="#2019">2019</a> – <a href="#2018">2018</a></p>
-		<hr>
+		
 
-		<p>Since January 1, 2018 I'm closing all the rings on my Apple Watch, every day. You can find out more about it on the <a href="https://www.apple.com/watch/close-your-rings/">Apple official website</a>. I also try to get all the special awards. <span id="countbox"></span></p>
+		<p>Since January 1, 2018 I'm closing all the rings on my Apple Watch, every day. You can find out more about it on <a href="https://www.apple.com/watch/close-your-rings/">Apple's official website</a>. I try to get all the special awards as well.</p>
+
+		<p>Go to <a href="#2021">2021</a> – <a href="#2020">2020</a> – <a href="#2019">2019</a> – <a href="#2018">2018</a></p>
 		
 		<figure>
 
@@ -687,14 +650,8 @@
 			</figure>
 
 
-		</article>
 
 	</body>
-
-	<footer>
-		<hr>
-		<p>This website practices <a href="https://ind.ie/ethical-design/">Ethical Design</a>.</p>
-	</footer>
 
 </html>
 	
