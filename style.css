@@ -48,6 +48,8 @@
 	}
 	
 	nav {
+		margin-bottom: 2em;
+		margin-top: 2em;
 		
 	}
 
@@ -74,6 +76,7 @@
 		margin: 0 auto;
 		padding: 0 10%;
 		margin-top: 15%;
+		margin-bottom: 2em;
 		max-width: 800px;
 		min-width: 300px;
 		
@@ -107,6 +110,12 @@
 	}
 
 	
+	.item {
+		border-left: 4px solid #1B1B1B;
+		margin-left: 0.5em;
+		padding-left: 0.5em;
+
+	}
 
 	#name {
 		position: fixed;
@@ -226,6 +235,13 @@
 
 	.redacted {
   background-color: #F0F0F0
+
+	}
+
+	.item {
+		border-left: 4px solid #F0F0F0;
+		margin-left: 0.5em;
+		padding-left: 0.5em;
 
 	}
 
