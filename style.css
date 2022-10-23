@@ -109,7 +109,22 @@
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+	.projects {
+		opacity: 1;
+		filter:grayscale(100%);
+		transition: .4s ease;
+  	
+	}
 	
+	.projects:hover {
+		opacity: 1;
+		filter:brightness(1.0);
+		transition: .4s ease;
+  	transform: scale(1.1);
+	}
+	
+
 	.item {
 		border-left: 4px solid #1B1B1B;
 		margin-left: 0.5em;
