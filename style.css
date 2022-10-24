@@ -130,7 +130,14 @@
   	transform: scale(1.1);
 	}
 
+	.toolslight {
+		width: 100%;
+		max-width: 400px;
+
+		}
+
 	.toolsdark {
+
 		display: none;
 	}
 
@@ -140,8 +147,9 @@
 		filter:grayscale(100%) opacity(20%);
 		transition: .3s ease;
 		float: left;
-		margin: 1%;
-		width: 14.65%;
+		margin-top: 2%;
+		margin-right: 3%;
+		width: 13.6%;
   	
 	}
 
@@ -283,6 +291,9 @@
 
 
   }
+
+  
+
 }
 
 
@@ -321,7 +332,9 @@
 
 	.toolslight {
 		display: none;
+
 	}
+
 
 		.toolsdark {
 		display: inline;
