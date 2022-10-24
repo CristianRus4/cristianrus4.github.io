@@ -120,6 +120,8 @@
 		transition: .4s ease;
   	
 	}
+
+
 	
 	.projects:hover {
 		opacity: 1;
@@ -128,6 +130,12 @@
   	transform: scale(1.1);
 	}
 	
+	.tools {
+		align-content: center;
+		float: left;
+		width: 15%;
+  	
+	}
 
 	.item {
 		border-left: 4px solid #1B1B1B;
