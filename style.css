@@ -62,6 +62,10 @@
  
 	}
 
+	.hypertxt {
+  color: #1B1B1B;
+	}
+
 
 
 	body {
@@ -273,6 +277,9 @@
 		color: #F0F0F0;
 	}
 
+	.hypertxt {
+  color: #F0F0F0;
+	}
 
 	.item {
 		border-left: 4px solid #F0F0F0;
