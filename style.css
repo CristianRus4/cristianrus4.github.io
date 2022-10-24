@@ -86,7 +86,7 @@
 	
 	h1 {
 		font-size: 6.5em;
-		font-family: 'QuattroBo', sans-serif;		
+		font-family: 'GothamXNBold', sans-serif;		
 		margin-bottom: 0.4em;
 		line-height: 1em;
 		text-align: right;
@@ -95,7 +95,7 @@
 
 	h2 {
 		font-size: 2em;
-		font-family: 'QuattroBo', sans-serif;		
+		font-family: 'GothamXNBold', sans-serif;		
 		margin-bottom: 0;
 		line-height: 1em;
 		
@@ -174,7 +174,7 @@
 	.subtitle {
 		font-size: 2em;
 		font-weight: 900;
-		font-family: 'QuattroBo', sans-serif;
+		font-family: 'GothamXNBold', sans-serif;
 		max-width: 600px;
 		line-height: 1.2em;
 		font-weight: 100;
