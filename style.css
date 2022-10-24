@@ -115,27 +115,46 @@
 	}
 
 	.projects {
-		opacity: 1;
+		
 		filter:grayscale(100%);
-		transition: .4s ease;
+		transition: .3s ease;
   	
 	}
 
 
 	
 	.projects:hover {
-		opacity: 1;
-		filter:brightness(1.0);
-		transition: .4s ease;
+		
+		filter:grayscale(0%);
+		transition: .3s ease;
   	transform: scale(1.1);
 	}
+
+	.toolsdark {
+		display: none;
+	}
+
 	
 	.tools {
-		align-content: center;
+	
+		filter:grayscale(100%) opacity(20%);
+		transition: .3s ease;
 		float: left;
-		width: 16.6%;
+		margin: 1%;
+		width: 14%;
   	
 	}
+
+	
+
+	.tools:hover {
+		filter:grayscale(0%);
+		transition: .3s ease;
+  	transform: scale(1.15);
+	}
+
+
+
 
 	.item {
 		border-left: 4px solid #1B1B1B;
@@ -295,6 +314,21 @@
 		padding-left: 0.5em;
 
 	}
+
+
+
+	
+
+	.toolslight {
+		display: none;
+	}
+
+		.toolsdark {
+		display: inline;
+	}
+
+
+
 
 	a:link {
 	  color: #4096D2;
