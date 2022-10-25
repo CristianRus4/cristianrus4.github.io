@@ -1,4 +1,6 @@
 
+		@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 		@font-face {
   	font-family: Quattro;
   	src: url(fonts/Quattro.woff);
@@ -86,7 +88,7 @@
 	
 	h1 {
 		font-size: 6.5em;
-		font-family: 'GothamXNBold', sans-serif;		
+		font-family: 'Inter', sans-serif;		
 		margin-bottom: 0.4em;
 		line-height: 1em;
 		text-align: right;
@@ -94,8 +96,8 @@
 	}
 
 	h2 {
-		font-size: 2em;
-		font-family: 'GothamXNBold', sans-serif;		
+		font-size: 1.9em;
+		font-family: 'Inter', sans-serif;		
 		margin-bottom: 0;
 		line-height: 1em;
 		
@@ -113,6 +115,8 @@
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+	
 
 	.projects {
 		
@@ -208,11 +212,10 @@
 
 	.subtitle {
 		font-size: 2em;
-		font-weight: 900;
-		font-family: 'GothamXNBold', sans-serif;
+		font-weight: 700;
+		font-family: 'Inter', sans-serif;
 		max-width: 600px;
 		line-height: 1.2em;
-		font-weight: 100;
 
 	}
 	
