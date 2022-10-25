@@ -92,7 +92,7 @@
 		margin-bottom: 0.4em;
 		line-height: 1em;
 		text-align: right;
-		font-weight: 900;
+		font-weight: 800;
 	}
 
 	h2 {
@@ -116,7 +116,7 @@
 		margin-right: 0;
 	}
 
-	
+
 
 	.projects {
 		
@@ -240,6 +240,7 @@
 	  text-decoration: none;
 	
 	}  
+
 
 
 @media only screen and (min-width: 1000px) {
